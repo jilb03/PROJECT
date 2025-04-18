@@ -1,0 +1,155 @@
+html{
+  font-family: sans-serif;
+}
+body{
+  padding: 0px;
+  margin: 0;
+}
+  .nav a:hover{
+    color: white;
+} 
+
+.head a {
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  margin-left: 20px;
+
+}
+
+.head{
+  background: linear-gradient(135deg, #f39c12, #e74c3c);
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+.head1{
+    margin-top: 30px;
+    text-align: center;
+    background-color:bisque;
+    padding: 20px;
+}
+
+.head1 h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.head1 p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+
+.testimonials-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.testimonials-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #8b5e3c;
+  margin-bottom: 2rem;
+}
+
+.testimonial {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial p {
+  font-family: serif;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.testimonial h4 {
+  margin-top: 1rem;
+  font-weight: normal;
+  color: #333;
+}
+
+.rating {
+  color: #ffb703;
+  font-size: 1.2rem;
+}
+
+
+.cta-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #f4f0eb;
+}
+
+.cta-section h3 {
+  font-size: 1.8rem;
+  color: #8b5e3c;
+}
+
+.cta-section p {
+  font-size: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  color: #444;
+}
+
+.cta-section a {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #8b5e3c;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+      color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer img {
+  transition: transform 0.2s ease;
+}
+footer img:hover {
+  transform: scale(1.1);
+}
+
+
+@media (max-width: 500px) {
+  .nav {
+    display: block;
+    flex-direction: column;
+    background: linear-gradient(135deg, #f39c12, #e74c3c);
+    position: absolute;
+    top: 60px;
+    right: 20px;
+  }
+}

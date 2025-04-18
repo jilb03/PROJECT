@@ -1,0 +1,176 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #333;
+  }
+
+.head a {
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  margin-left: 20px;
+
+}
+
+.head{
+background: linear-gradient(135deg, #f39c12, #e74c3c);
+height: 10vh;
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+a{
+  color: black;
+  list-style: none;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+}
+.nav a:hover{
+  color: white;
+}
+
+  header {
+    background-color: #e3dcd2;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  header p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+
+  .blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  .post {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+
+  .post:hover {
+    transform: translateY(-5px);
+  }
+
+  .post img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .post-content {
+    padding: 1rem;
+  }
+
+  .post-content h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+
+  .post-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+
+  .read-more {
+    display: inline-block;
+    margin-top: 0.8rem;
+    color: #8b5e3c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+
+  .tips-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.tip-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.tip-card:hover {
+  transform: translateY(-5px);
+}
+
+.section {
+  margin: 20px;
+  text-align: center;
+}
+
+
+  footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+footer img {
+  transition: transform 0.2s ease;
+}
+footer img:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+@media (max-width: 500px) {
+  .nav {
+    display: block;
+    flex-direction: column;
+    background: linear-gradient(135deg, #f39c12, #e74c3c);
+    position: absolute;
+    top: 60px;
+    right: 20px;
+  }
+}
